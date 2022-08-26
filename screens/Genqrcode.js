@@ -44,10 +44,7 @@ const Genqrcode = ({ route }) => {
 		const currentDate = selectedDate;
 		setstartDate(currentDate);
 	};
-	const onChange2 = (event, selectedDate) => {
-		const currentDate = selectedDate;
-		setendDate(currentDate);
-	};
+
 	const showMode = async (currentMode, type) => {
 		if (type === 'end') {
 			DateTimePickerAndroid.open({
